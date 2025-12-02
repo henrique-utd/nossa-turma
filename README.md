@@ -30,13 +30,7 @@ git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
 
 
 ### 3. Crie sua branch e crie sua Página Pessoal
-Dentro da pasta do projeto, altere a branch de main para developer.
-
-```git
-git switch develop
-```
-
-Após mudar a branch, crie sua branch para incluir sua contribuição.
+Dentro da pasta do projeto, crie sua branch para incluir sua contribuição.
 ```
 git branch feature/seu-nome
 git switch feature/seu-nome
@@ -69,9 +63,7 @@ Agora vamos subir o código para o seu GitHub:
 ```bash
 git add .
 git commit -m "Adicionando página do Aluno [Seu Nome]"
-git switch develop
-git merge feature/seu-nome
-git push origin main
+git push origin feature/seu-nome
 ```
 
 ### 6. Abra um Pull Request (PR)
@@ -79,7 +71,7 @@ Volte para a página do seu repositório no GitHub.
 
 Você verá um aviso de que seu ramo está à frente. Clique em Compare & pull request.
 
-Revise se está tudo certo e confirme o envio.
+Revise se está tudo certo, a branch de destino é a DEVELOP, e confirme o envio.
 
 ### ⚠️ Regras Importantes
 Respeite o código do colega: Ao editar o index.html, cuidado para não apagar a linha de outra pessoa. Adicione a sua linha no final da lista.
@@ -96,3 +88,4 @@ Mantenha simples: Não adicione CSS ou Scripts agora. Vamos focar no HTML puro.
 
 
 Bom código a todos! 🚀
+
